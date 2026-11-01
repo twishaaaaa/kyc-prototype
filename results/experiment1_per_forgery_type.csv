@@ -1,0 +1,65 @@
+feature_set,model,kind,metric,value
+consistency only,LogReg,forged_A,detection_rate,0.9402298850574714
+consistency only,LogReg,forged_B,detection_rate,0.546875
+consistency only,LogReg,forged_C,detection_rate,0.7241379310344828
+consistency only,LogReg,genuine,false_positive_rate,0.06111111111111111
+consistency only,RandomForest,forged_A,detection_rate,0.9724137931034482
+consistency only,RandomForest,forged_B,detection_rate,0.546875
+consistency only,RandomForest,forged_C,detection_rate,0.6551724137931034
+consistency only,RandomForest,genuine,false_positive_rate,0.05666666666666667
+consistency only,XGBoost,forged_A,detection_rate,0.9678160919540231
+consistency only,XGBoost,forged_B,detection_rate,0.546875
+consistency only,XGBoost,forged_C,detection_rate,0.6551724137931034
+consistency only,XGBoost,genuine,false_positive_rate,0.04555555555555555
+ocr_quality only,LogReg,forged_A,detection_rate,0.3816091954022989
+ocr_quality only,LogReg,forged_B,detection_rate,0.403125
+ocr_quality only,LogReg,forged_C,detection_rate,0.48275862068965525
+ocr_quality only,LogReg,genuine,false_positive_rate,0.4111111111111111
+ocr_quality only,RandomForest,forged_A,detection_rate,0.47126436781609204
+ocr_quality only,RandomForest,forged_B,detection_rate,0.40937500000000004
+ocr_quality only,RandomForest,forged_C,detection_rate,0.40689655172413797
+ocr_quality only,RandomForest,genuine,false_positive_rate,0.49666666666666653
+ocr_quality only,XGBoost,forged_A,detection_rate,0.45517241379310336
+ocr_quality only,XGBoost,forged_B,detection_rate,0.46875
+ocr_quality only,XGBoost,forged_C,detection_rate,0.42758620689655175
+ocr_quality only,XGBoost,genuine,false_positive_rate,0.5122222222222221
+forensic only,LogReg,forged_A,detection_rate,0.7609195402298851
+forensic only,LogReg,forged_B,detection_rate,0.946875
+forensic only,LogReg,forged_C,detection_rate,0.9586206896551724
+forensic only,LogReg,genuine,false_positive_rate,0.015555555555555555
+forensic only,RandomForest,forged_A,detection_rate,0.8551724137931035
+forensic only,RandomForest,forged_B,detection_rate,1.0
+forensic only,RandomForest,forged_C,detection_rate,1.0
+forensic only,RandomForest,genuine,false_positive_rate,0.06333333333333334
+forensic only,XGBoost,forged_A,detection_rate,0.8045977011494253
+forensic only,XGBoost,forged_B,detection_rate,0.996875
+forensic only,XGBoost,forged_C,detection_rate,1.0
+forensic only,XGBoost,genuine,false_positive_rate,0.03444444444444445
+consistency + ocr_quality,LogReg,forged_A,detection_rate,0.9632183908045977
+consistency + ocr_quality,LogReg,forged_B,detection_rate,0.5625
+consistency + ocr_quality,LogReg,forged_C,detection_rate,0.7172413793103448
+consistency + ocr_quality,LogReg,genuine,false_positive_rate,0.05
+consistency + ocr_quality,RandomForest,forged_A,detection_rate,0.9678160919540231
+consistency + ocr_quality,RandomForest,forged_B,detection_rate,0.5875
+consistency + ocr_quality,RandomForest,forged_C,detection_rate,0.6344827586206896
+consistency + ocr_quality,RandomForest,genuine,false_positive_rate,0.08333333333333333
+consistency + ocr_quality,XGBoost,forged_A,detection_rate,0.9655172413793104
+consistency + ocr_quality,XGBoost,forged_B,detection_rate,0.5750000000000001
+consistency + ocr_quality,XGBoost,forged_C,detection_rate,0.6206896551724138
+consistency + ocr_quality,XGBoost,genuine,false_positive_rate,0.11333333333333334
+all document features,LogReg,forged_A,detection_rate,0.9057471264367816
+all document features,LogReg,forged_B,detection_rate,0.953125
+all document features,LogReg,forged_C,detection_rate,0.9448275862068966
+all document features,LogReg,genuine,false_positive_rate,0.016666666666666666
+all document features,RandomForest,forged_A,detection_rate,0.8919540229885057
+all document features,RandomForest,forged_B,detection_rate,1.0
+all document features,RandomForest,forged_C,detection_rate,1.0
+all document features,RandomForest,genuine,false_positive_rate,0.042222222222222223
+all document features,XGBoost,forged_A,detection_rate,0.8758620689655173
+all document features,XGBoost,forged_B,detection_rate,1.0
+all document features,XGBoost,forged_C,detection_rate,1.0
+all document features,XGBoost,genuine,false_positive_rate,0.026666666666666665
+rule: any consistency check fails,no training,forged_A,detection_rate,1.0
+rule: any consistency check fails,no training,forged_B,detection_rate,0.625
+rule: any consistency check fails,no training,forged_C,detection_rate,0.7931034482758621
+rule: any consistency check fails,no training,genuine,false_positive_rate,0.32222222222222224
